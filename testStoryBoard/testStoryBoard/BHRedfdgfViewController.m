@@ -1,14 +1,13 @@
 //
-//  BHViewController.h
+//  BHRedfdgfViewController.m
 //  testStoryBoard
 //
 //  Created by Shubah D on 3/25/14.
 //  Copyright (c) 2014 TechJini. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BHRedfdgfViewController.h"
 
-@interface BHViewController : UIViewController
-/////
+@implementation BHRedfdgfViewController
 
 @end
