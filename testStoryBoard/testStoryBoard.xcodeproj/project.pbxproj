@@ -21,6 +21,7 @@
 		999B42CB18E155CF0098B32C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999B42AD18E155CF0098B32C /* UIKit.framework */; };
 		999B42D318E155CF0098B32C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 999B42D118E155CF0098B32C /* InfoPlist.strings */; };
 		999B42D518E155CF0098B32C /* testStoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 999B42D418E155CF0098B32C /* testStoryBoardTests.m */; };
+		999B432418E1A4CA0098B32C /* BHBreadcrumbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 999B432318E1A4CA0098B32C /* BHBreadcrumbViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		999B42D018E155CF0098B32C /* testStoryBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testStoryBoardTests-Info.plist"; sourceTree = "<group>"; };
 		999B42D218E155CF0098B32C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		999B42D418E155CF0098B32C /* testStoryBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testStoryBoardTests.m; sourceTree = "<group>"; };
+		999B432218E1A4CA0098B32C /* BHBreadcrumbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBreadcrumbViewController.h; sourceTree = "<group>"; };
+		999B432318E1A4CA0098B32C /* BHBreadcrumbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBreadcrumbViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				999B42BF18E155CF0098B32C /* BHViewController.m */,
 				999B42C118E155CF0098B32C /* Images.xcassets */,
 				999B42B018E155CF0098B32C /* Supporting Files */,
+				999B432218E1A4CA0098B32C /* BHBreadcrumbViewController.h */,
+				999B432318E1A4CA0098B32C /* BHBreadcrumbViewController.m */,
 			);
 			path = testStoryBoard;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				999B42C018E155CF0098B32C /* BHViewController.m in Sources */,
 				999B42BA18E155CF0098B32C /* BHAppDelegate.m in Sources */,
 				999B42B618E155CF0098B32C /* main.m in Sources */,
+				999B432418E1A4CA0098B32C /* BHBreadcrumbViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +469,7 @@
 				999B42DA18E155CF0098B32C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		999B42DB18E155CF0098B32C /* Build configuration list for PBXNativeTarget "testStoryBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +478,7 @@
 				999B42DD18E155CF0098B32C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
