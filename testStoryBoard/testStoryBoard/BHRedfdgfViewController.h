@@ -1,5 +1,5 @@
 //
-//  BHViewController.h
+//  BHRedfdgfViewController.h
 //  testStoryBoard
 //
 //  Created by Shubah D on 3/25/14.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BHViewController : UIViewController
-/////
+@interface BHRedfdgfViewController : BHBaseViewController
 
 @end
