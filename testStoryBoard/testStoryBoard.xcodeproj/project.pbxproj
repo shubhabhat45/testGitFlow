@@ -22,6 +22,7 @@
 		999B42D318E155CF0098B32C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 999B42D118E155CF0098B32C /* InfoPlist.strings */; };
 		999B42D518E155CF0098B32C /* testStoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 999B42D418E155CF0098B32C /* testStoryBoardTests.m */; };
 		999B432418E1A4CA0098B32C /* BHBreadcrumbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 999B432318E1A4CA0098B32C /* BHBreadcrumbViewController.m */; };
+		999B432718E1ABEF0098B32C /* BHRedfdgfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 999B432618E1ABEF0098B32C /* BHRedfdgfViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		999B42D418E155CF0098B32C /* testStoryBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testStoryBoardTests.m; sourceTree = "<group>"; };
 		999B432218E1A4CA0098B32C /* BHBreadcrumbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBreadcrumbViewController.h; sourceTree = "<group>"; };
 		999B432318E1A4CA0098B32C /* BHBreadcrumbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBreadcrumbViewController.m; sourceTree = "<group>"; };
+		999B432518E1ABEF0098B32C /* BHRedfdgfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHRedfdgfViewController.h; sourceTree = "<group>"; };
+		999B432618E1ABEF0098B32C /* BHRedfdgfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHRedfdgfViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				999B42B018E155CF0098B32C /* Supporting Files */,
 				999B432218E1A4CA0098B32C /* BHBreadcrumbViewController.h */,
 				999B432318E1A4CA0098B32C /* BHBreadcrumbViewController.m */,
+				999B432518E1ABEF0098B32C /* BHRedfdgfViewController.h */,
+				999B432618E1ABEF0098B32C /* BHRedfdgfViewController.m */,
 			);
 			path = testStoryBoard;
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 				999B42BA18E155CF0098B32C /* BHAppDelegate.m in Sources */,
 				999B42B618E155CF0098B32C /* main.m in Sources */,
 				999B432418E1A4CA0098B32C /* BHBreadcrumbViewController.m in Sources */,
+				999B432718E1ABEF0098B32C /* BHRedfdgfViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
